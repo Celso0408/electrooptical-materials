@@ -22,16 +22,16 @@ In this section, we will explain each of the following parameters in detail:
 - Basis set
     - **Basis set type:** Specify the type of basis set employed in the calculation.
 - Initial guess
-    - Charge
-    - Multiplicity
+    - Charge: Indicate the total charge of the molecule.
+    - Multiplicity: Specify the multiplicity of the molecule.
 - DFT options
-    - Max SCF iterations
-    - Use RI
-    - Memory for RI
-    - Functional
-    - Integration grid
-    - vdw correction
-    - COSMO calculation
+    - Max SCF iterations: Set the maximum number of SCF (Self-Consistent Field) iterations.
+    - Use RI: Specify whether the RI (Resolution of Identity) approximation is used.
+    - Memory for RI: Allocate memory for RI calculations.
+    - Functional: Specify the DFT functional used.
+    - Integration grid: Define the integration grid used for the DFT calculations.
+    - vdw correction: Indicate if van der Waals correction is needed.
+    - COSMO calculation: Specify if COSMO calculations are needed.
 - Type of calculation
     - Structure optimization
     - Excited states calculation
