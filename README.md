@@ -13,8 +13,28 @@ These calculations can be performed for molecules in both gas phase and solution
 ![Alt Text](dft.png)
 
 # Parameters
----
+
 - Title
 - Molecular Structure
     - Structure file type
-- Basis set 
+    - Structure file
+    - Internal coordinates
+- Basis set
+    - Basis set type
+- Initial guess
+    - Charge
+    - Multiplicity
+- DFT options
+    - Max SCF iterations
+    - Use RI
+    - Memory for RI
+    - Functional
+    - Integration grid
+    - vdw correction
+    - COSMO calculation
+- Type of calculation
+    - Structure optimization
+    - Excited states calculation
+    - Hyperpolarizability
+    - Frequency calculation
+    - Plot HOMO-LUMO orbt
