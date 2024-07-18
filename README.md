@@ -33,8 +33,8 @@ In this section, we will explain each of the following parameters in detail:
     - vdw correction: Indicate if van der Waals correction is needed.
     - COSMO calculation: Specify if COSMO calculations are needed.
 - Type of calculation
-    - Structure optimization
-    - Excited states calculation
-    - Hyperpolarizability
-    - Frequency calculation
-    - Plot HOMO-LUMO orbt
+    - Structure optimization: Performing geometry optimization if you select this option. The final structure will be stored in the output directory.
+    - Excited states calculation: Computing the electronic states of a molecule that are higher in energy than the ground state using the Time-Dependent Density Functional Theory (TD-DFT) method.
+    - Hyperpolarizability: DFT-Turbomole is able to calculate the first hyperpolarizability for both static and dynamic frequencies. By default, Turbomole calculates the first hyperpolarizability for the second harmonic generation case. However, this WaNo is designed to calculate hyperpolarizability for the Pockels effect as well.
+    - Frequency calculation: Calculate second derivatives of the energy with respect to nuclear positions. This can be chosen either with the structure optimization parameter or alone.
+    - Plot HOMO-LUMO orbt:  If you need to see the frontier orbitals, selecting this parameter will calculate the related cube files.
