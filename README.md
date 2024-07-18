@@ -15,9 +15,9 @@ These calculations can be performed for molecules in both gas phase and solution
 # Parameters
 In this section, we will explain each of the following parameters in detail:
 - **Title:** Provide the title of the calculation or project.
-- Molecular Structure
-    - **Structure file type:** Specify the type of structure file being used (XYZ, Turbomole coord, Gaussian input).
-    - **Structure file:** The actual structure file containing the molecular coordinates.
+- **Molecular Structure**
+    - _**Structure file type:**_ Specify the type of structure file being used (XYZ, Turbomole coord, Gaussian input).
+    - _**Structure file:**_ The actual structure file containing the molecular coordinates.
     - **Internal coordinates:** Information on the internal coordinates used for defining the molecule.
 - Basis set
     - **Basis set type:** Specify the type of basis set employed in the calculation.
