@@ -18,7 +18,7 @@ In this section, we will explain each of the following parameters in detail:
 - **Molecular Structure**
     - _**Structure file type:**_ Specify the type of structure file being used (XYZ, Turbomole coord, Gaussian input).
     - _**Structure file:**_ The actual structure file containing the molecular coordinates.
-    -_ **Internal coordinates:**_ Information on the internal coordinates used for defining the molecule.
+    - _ **Internal coordinates:**_ Information on the internal coordinates used for defining the molecule.
 - **Basis set**
     - _**Basis set type:**_ Specify the type of basis set employed in the calculation.
 - **Initial guess**
