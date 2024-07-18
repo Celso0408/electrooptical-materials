@@ -8,8 +8,7 @@ The DFT-Turbomole WANO is a workflow automation tool designed for computational 
 - Excited state calculation
 - Hyperpolarizability calculation
 
-These calculations can be performed for molecules in both gas phase and solution environments. However, the primary purpose of this workflow automation tool is to streamline hyperpolarizability calculations, aiding in the screening and assessment of molecular candidates for applications in nonlinear optics and related fields. The only needed input file is xyz structure of the molecule.
-
+These calculations can be performed for molecules in both gas phase and solution environments. However, the primary purpose of this workflow automation tool is to streamline hyperpolarizability calculations, aiding in the screening and assessment of molecular candidates for applications in nonlinear optics and related fields. 
 ![Alt Text](dft.png)
 
 # Parameters
@@ -18,7 +17,7 @@ In this section, we will explain each of the following parameters in detail:
 - **Molecular Structure**
     - _**Structure file type:**_ Specify the type of structure file being used (XYZ, Turbomole coord, Gaussian input).
     - _**Structure file:**_ The actual structure file containing the molecular coordinates.
-    - _ **Internal coordinates:**_ Information on the internal coordinates used for defining the molecule.
+    - _**Internal coordinates:**_ Information on the internal coordinates used for defining the molecule.
 - **Basis set**
     - _**Basis set type:**_ Specify the type of basis set employed in the calculation.
 - **Initial guess**
@@ -38,3 +37,6 @@ In this section, we will explain each of the following parameters in detail:
     - _**Hyperpolarizability:**_ DFT-Turbomole is able to calculate the first hyperpolarizability for both static and dynamic frequencies. By default, Turbomole calculates the first hyperpolarizability for the second harmonic generation case. However, this WaNo is designed to calculate hyperpolarizability for the Pockels effect as well.
     - _**Frequency calculation:**_ Calculate second derivatives of the energy with respect to nuclear positions. This can be chosen either with the structure optimization parameter or alone.
     - _**Plot HOMO-LUMO orbt:**_  If you need to see the frontier orbitals, selecting this parameter will calculate the related cube files.
+---
+# Input
+The only needed input file is xyz structure of the molecule.
