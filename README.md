@@ -39,7 +39,7 @@ To construct your workflow, follow these steps:
 Carefully place and order the UnpackMol, DFT-Turbomole, and DFT-Turbomole_1 modules within the "AdvancedFor" loop to ensure the workflow operates correctly.
 
 <figure align="center">
-    <img src="images/wano1.png" alt="Alt Text">
+    <img src="images/wano3a.png" alt="Alt Text">
     <figcaption>Figure 1: This figure illustrates the workflow for calculating hyperpolarizability. The workflow encompasses the following components: Mult-It, UnpackMol, DFT-Turbomole, DFT-Turbomole_1, DB-Generator Wanos, and a for loop.
 </figcaption>
 </figure>
