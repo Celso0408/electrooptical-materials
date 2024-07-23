@@ -12,7 +12,7 @@ These calculations can be performed for molecules in both gas phase and solution
 ![Alt Text](images/wano1.png)
 
 <figure align="center">
-    <img src="images/wano1.png" alt="Example Image" width="300">
+    <img src="images/wano1.png" >
     <figcaption>Figure 1: This is an example image caption</figcaption>
 </figure>
 
