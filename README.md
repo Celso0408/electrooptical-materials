@@ -31,6 +31,12 @@ To construct your workflow, follow these steps:
  - DFT-Turbomole (twice; the first instance for geometry optimization calculations, and the second instance, named DFT-Turbomole_1, for hyperpolarizability calculations)
  - DB-Generator
 
+2- **Configure the Loop:** Ensure that UnpackMol, DFT-Turbomole, and DFT-Turbomole_1 are encapsulated within the "AdvancedFor" loop as depicted in Figure 1.
+
+3- **Adjustment:** You can reposition and reorder the modules on the screen by clicking and dragging them as needed.
+
+## Note 
+Carefully place and order the UnpackMol, DFT-Turbomole, and DFT-Turbomole_1 modules within the "AdvancedFor" loop to ensure the workflow operates correctly.
 
 
 
