@@ -18,7 +18,19 @@ These calculations can be performed for molecules in both gas phase and solution
 
 
 This document describes the components of the workflow and provides instructions on how to use them.
-# Workflow creation
+# Workflow Creation in Simstack
+Upon launching Simstack, navigate to the top left corner of the screen where you'll find all necessary Wanos modules listed under the "Nodes" section (refer to Number 1 in Figure 2). The "AdvancedFor" for loop is situated within the "Controls" section (see Number 2 in Figure 2).
+
+## Creating a Workflow
+To construct your workflow, follow these steps:
+1- **Drag and Drop:** Begin by dragging the Wanos modules and the "AdvancedFor" loop into your workspace in the specified order:
+ - Mult-It
+ - AdvancedFor
+ - UnpackMol
+ - DFT-Turbomole (twice; the first instance for geometry optimization calculations, and the second instance, named DFT-Turbomole_1, for hyperpolarizability calculations)
+ - DB-Generator
+
+
 
 
 # Parameters
