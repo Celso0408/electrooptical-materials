@@ -11,6 +11,11 @@ The DFT-Turbomole WANO is a workflow automation tool designed for computational 
 These calculations can be performed for molecules in both gas phase and solution environments. However, the primary purpose of this workflow automation tool is to streamline hyperpolarizability calculations, aiding in the screening and assessment of molecular candidates for applications in nonlinear optics and related fields. Figure 1 depicts the workflow layout.
 ![Alt Text](images/wano1.png)
 
+<figure align="center">
+    <img src="images/wano1.png" alt="Example Image" width="300">
+    <figcaption>Figure 1: This is an example image caption</figcaption>
+</figure>
+
 # Parameters
 In this section, we will explain each of the following parameters in detail:
 - **Title:** Provide the title of the calculation or project.
