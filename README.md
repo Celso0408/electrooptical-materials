@@ -64,6 +64,14 @@ This Wano (Figure 3) allows users to upload multiple input files simultaneously.
 </figure>
 
 ## AdvancedFor
+To use the For loop in the workspace, simply drag the "AdvancedFor" from the "Controls" section (see number 1 in Figure 5) and drop it into the workspace. This workflow processes all files previously uploaded via the tar file using the "Mult-It" Wano, performing the desired action on them. The loop variable should always be named "file" for the for command (see number 3 in Figure 5), and the command should be set to "list(range(Mult-It.struct_len))" for this Wano (see number 4 in Figure 5). To use this command, double-click on "HyperPol_2" under the "Workflows" section (see number 2 in Figure 5).
+
+<figure align="centering">
+    <img src="images/wano4.png" alt="Alt Text">
+    <figcaption>Figure 5: Workspace setup showing the placement of 'AdvancedFor' in the workflow, key configuration fields for the for loop, and how to initiate the command in the 'Mult-It' Wano.
+</figcaption>
+</figure>
+
 
 ## DFT-Turbomole
 # Parameters
