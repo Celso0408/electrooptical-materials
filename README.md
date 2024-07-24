@@ -16,8 +16,7 @@ These calculations can be performed for molecules in both gas phase and solution
 </figcaption>
 </figure>
 
-
-This document describes the components of the workflow and provides instructions on how to use them.
+<!-- This document describes the components of the workflow and provides instructions on how to use them.
 # Workflow Creation in Simstack
 Upon launching Simstack, navigate to the top left corner of the screen where you'll find all necessary Wanos modules listed under the "Nodes" section (refer to Number 1 in Figure 2). The "AdvancedFor" for loop is situated within the "Controls" section (see Number 2 in Figure 2).
 
@@ -44,8 +43,7 @@ Carefully place and order the UnpackMol, DFT-Turbomole, and DFT-Turbomole_1 modu
 </figcaption>
 </figure>
 
-
-All components will be explained in the following section.
+<!-- All components will be explained in the following section.
 
 
 
