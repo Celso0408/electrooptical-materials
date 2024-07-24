@@ -58,7 +58,7 @@ This Wano (Figure 3) allows users to upload multiple input files simultaneously.
 </figure>
 
 <figure align="centering">
-    <img src="images/wano4.png" alt="Alt Text">
+    <img src="images/wano4-700.png" alt="Alt Text">
     <figcaption>Figure 4: File selection interface accessed by clicking the paper icon near the filename box (shown in Figure 3). This interface helps users navigate and select the necessary tar file from their desktop paths.
 </figcaption>
 </figure>
