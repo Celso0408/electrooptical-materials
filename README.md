@@ -52,12 +52,16 @@ All components will be explained in the following section.
 This Wano (Figure 3) allows users to upload multiple input files simultaneously. Users should prepare all necessary structure files in a folder and create a tar file on their own computer. Although there are various options available in this Wano, the only essential option is "structure" (see number 1 in Figure 3). The rest of the options should remain unchanged for this workflow. By selecting "structure," the "tarfile" section will appear. Clicking the paper icon next to the filename box (number 2 in Figure 3) will guide the user to the desktop paths (Figure 4), where the tar file can be located and selected.
 
 <figure align="centering">
-    <img src="images/wano1.png" alt="Alt Text">
+    <img src="images/wano3a.png" alt="Alt Text">
     <figcaption>Figure 3: This figure illustrates the workflow for calculating hyperpolarizability. The workflow encompasses the following components: Mult-It, UnpackMol, DFT-Turbomole, DFT-Turbomole_1, DB-Generator Wanos, and a for loop.
 </figcaption>
 </figure>
 
-
+<figure align="centering">
+    <img src="images/wano4.png" alt="Alt Text">
+    <figcaption>Figure 4: This figure illustrates the workflow for calculating hyperpolarizability. The workflow encompasses the following components: Mult-It, UnpackMol, DFT-Turbomole, DFT-Turbomole_1, DB-Generator Wanos, and a for loop.
+</figcaption>
+</figure>
 
 
 # Parameters
