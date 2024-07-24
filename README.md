@@ -15,8 +15,7 @@ These calculations can be performed for molecules in both gas phase and solution
     <figcaption>Figure 1: This figure illustrates the workflow for calculating hyperpolarizability. The workflow encompasses the following components: Mult-It, UnpackMol, DFT-Turbomole, DFT-Turbomole_1, DB-Generator Wanos, and a for loop.
 </figcaption>
 </figure>
-
-
+<br>
 This document describes the components of the workflow and provides instructions on how to use them.
 # Workflow Creation in Simstack
 Upon launching Simstack, navigate to the top left corner of the screen where you'll find all necessary Wanos modules listed under the "Nodes" section (refer to Number 1 in Figure 2). The "AdvancedFor" for loop is situated within the "Controls" section (see Number 2 in Figure 2).
