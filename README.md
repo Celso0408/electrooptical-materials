@@ -72,30 +72,40 @@ To use the For loop in the workspace, simply drag the "AdvancedFor" from the "Co
 </figcaption>
 </figure>
 
-## UnpackMol
+# UnpackMol Wano
+
 UnpackMol Wano extracts and processes files from the tar file uploaded using Mult-It. Follow the steps below to correctly set up and use UnpackMol Wano.
 
-### Steps to Use UnpackMol Wano
-**1. Open UnpackMol Wano:**
-    - Double-click on the UnpackMol Wano icon in the workspace. The related parameters will appear (see Figure 6, number 1).
-    
-**2. Enable Multivariable Mode:**
-    - Check the "Multivariable mode" box as shown in Figure 6, number 1.
-    
-**3. Select Input File:**
-    - Click on the button next to the "input file" section (Figure 6, number 2).
-    - In the window that appears, type the first three or four letters of "Mult-It". A list will pop up.
-    - From the list, sFor the final box labeled "structures", click the button and select Mult-It/outputs/Structures.tar (Figure 6, number 4).elect Multi-It/outputs/structure_output_dict.ylm. This 
-    means UnpackMol Wano will extract the structure from the output of Mult-It, which is delivered as a list.
-    
-**4. Set Structures-Int:**
-    - For the final box labeled "structures", click the button and select Mult-It/outputs/Structures.tar (Figure 6, number 4).
-    
-**5. Complete Setup:**
-    - Once all sections are filled, all fields will be deactivated (Figure 6, number 5).
+## Steps to Use UnpackMol Wano
 
-## Note
-  - This Wano obtains all the necessary data from the Mult-It Wano, which is why all the paths entered start with "Mult-It".
+1. **Open UnpackMol Wano:**
+   - Double-click on the UnpackMol Wano icon in the workspace. The related parameters will appear (see Figure 6, number 1).
+
+2. **Enable Multivariable Mode:**
+   - Check the "Multivariable mode" box as shown in Figure 6, number 1.
+
+3. **Select Input File:**
+   - Click on the button next to the "input file" section (Figure 6, number 2).
+   - In the window that appears, type the first three or four letters of "Mult-It". A list will pop up.
+   - From the list, select `Multi-It/outputs/structure_output_dict.ylm`. This means UnpackMol Wano will extract the structure from the output of Mult-It, which is delivered as a list.
+
+4. **Set Structures-Int:**
+   - Click the button next to the "structures-int" section and select `${file}` (Figure 6, number 3).
+
+5. **Select Structures File:**
+   - For the final box labeled "structures", click the button and select `Mult-It/outputs/Structures.tar` (Figure 6, number 4).
+
+6. **Complete Setup:**
+   - Once all sections are filled, all fields will be deactivated (Figure 6, number 5).
+
+## Notes
+
+- This Wano obtains all the necessary data from the Mult-It Wano, which is why all the paths entered start with "Mult-It".
+
+**Figure 6: Step-by-step Guide for Configuring UnpackMol Wano Parameters**
+
+This figure illustrates the process of setting up UnpackMol Wano, including enabling multivariable mode (1), selecting the input file (2), setting structures-int (3), and choosing the structures file (4). Once all fields are filled, they become deactivated (5).
+
 
 
 
