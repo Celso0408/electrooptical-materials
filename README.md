@@ -103,7 +103,7 @@ UnpackMol Wano extracts and processes files from the tar file uploaded using Mul
 - This Wano obtains all the necessary data from the Mult-It Wano, which is why all the paths entered start with "Mult-It".
 
 <figure align="centering">
-    <img src="images/unpack-all-large.png" alt="Alt Text">
+    <img src="images/unpack-all-larg.png" alt="Alt Text">
     <figcaption>Figure 6: This figure illustrates the process of setting up UnpackMol Wano, including enabling multivariable mode (1), selecting the input file (2), setting structures-int (3), and choosing the structures file (4). Once all fields are filled, they become deactivated (5).
 </figcaption>
 </figure>
