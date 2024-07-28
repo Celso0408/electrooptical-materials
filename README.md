@@ -109,7 +109,7 @@ UnpackMol Wano extracts and processes files from the tar file uploaded using Mul
 </figure>
 
 
-## DFT-Turbomole
+## DFT-Turbomole Wano
 
 ### Step-by-Step Guide
 
@@ -121,7 +121,7 @@ UnpackMol Wano extracts and processes files from the tar file uploaded using Mul
     
     ### Title Configuration
     - Click on the title box (labeled as 1 in Figure 7).
-    - Select `always ${file}` (labeled as 2 in Figure 7).
+    - Select `${file}` (labeled as 2 in Figure 7).
 
     ### Structure File Setup
     - Click on the box next to "structure file" under the "molecular structure" section (labeled as 3 in Figure 7).
@@ -144,7 +144,7 @@ UnpackMol Wano extracts and processes files from the tar file uploaded using Mul
 4. **Type of Calculation**
     - Tick the "structure optimization" and "Frequency calculation" options under the "Type of calculation" section (refer to Figure 8).
 <figure align="centering">
-    <img src="images/fig7.png" alt="Alt Text">
+    <img src="images/turbo5.png" alt="Alt Text">
     <figcaption>Figure 8:  Selection interface for the type of calculation in DFT-Turbomole. Ensure that both "structure optimization" and "Frequency calculation" options are ticked to enable geometry optimization and frequency calculation.
 </figcaption>
 </figure>
