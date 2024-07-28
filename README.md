@@ -112,6 +112,37 @@ UnpackMol Wano extracts and processes files from the tar file uploaded using Mul
 
 
 ## DFT-Turbomole
+
+### Step-by-Step Guide
+
+1. **Activate DFT-Turbomole**
+    - After setting up `UnpackMol`, double-click on `DFT-Turbomole` to activate it.
+
+2. **Configure Parameters**
+    - Click on the Wano icon to display the parameters (refer to Figure 7).
+    
+    ### Title Configuration
+    - Click on the title box (labeled as 1 in Figure 7).
+    - Select `always ${file}` (labeled as 2 in Figure 7).
+
+    ### Structure File Setup
+    - Click on the box next to "structure file" under the "molecular structure" section (labeled as 3 in Figure 7).
+    - Fill in the box with the path: `AdvancedForEach/${file_ITER}/UnpackMol/outputs/Mol_geom.xyz` (as shown in Figure 7, labeled as 4). (type a few letters of AdvancedForEach, then select this expresion among the list)
+
+3. **Select Additional Parameters**
+    - Configure the rest of the parameters under the following sections:
+        - **Basis set**
+        - **Initial guess**
+        - **DFT options**
+    - Detailed explanations of these parameters are provided in the next section.
+
+4. **Type of Calculation**
+    - Tick the "structure optimization" and "Frequency calculation" options under the "Type of calculation" section (refer to Figure 8).
+
+This setup will enable the Wano to grab the initial structures from the `UnpackMol` Wano and perform geometry optimization and frequency calculation.
+
+
+
 # Parameters
 In this section, we will explain each of the following parameters in detail:
 - **Title:** Provide the title of the calculation or project.
