@@ -109,8 +109,6 @@ UnpackMol Wano extracts and processes files from the tar file uploaded using Mul
 </figure>
 
 
-
-
 ## DFT-Turbomole
 
 ### Step-by-Step Guide
@@ -135,9 +133,22 @@ UnpackMol Wano extracts and processes files from the tar file uploaded using Mul
         - **Initial guess**
         - **DFT options**
     - Detailed explanations of these parameters are provided in the next section.
+  
+<figure align="centering">
+    <img src="images/fig7.png" alt="Alt Text">
+    <figcaption>Figure 7: Configuration interface for DFT-Turbomole. 
+</figcaption>
+</figure>
+
 
 4. **Type of Calculation**
     - Tick the "structure optimization" and "Frequency calculation" options under the "Type of calculation" section (refer to Figure 8).
+<figure align="centering">
+    <img src="images/fig7.png" alt="Alt Text">
+    <figcaption>Figure 8:  Selection interface for the type of calculation in DFT-Turbomole. Ensure that both "structure optimization" and "Frequency calculation" options are ticked to enable geometry optimization and frequency calculation.
+</figcaption>
+</figure>
+ 
 
 This setup will enable the Wano to grab the initial structures from the `UnpackMol` Wano and perform geometry optimization and frequency calculation.
 
