@@ -270,3 +270,10 @@ In this section, we will explain each of the following parameters in detail:
    - On the right-hand side of Simstack, click on "Jobs & Workflows" to check the progress (Figure 11).
    - Yellow color indicates the running status, green means successfully finished, and red shows an error.
    - To update the status, press the "Reload" button at the bottom of the page.
+
+<figure align="centering">
+    <img src="images/status.png" alt="Alt Text">
+    <figcaption>Figure 11:  Monitoring Job and Workflow Progress in Simstack.
+</figcaption>
+</figure>
+  
