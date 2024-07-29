@@ -203,10 +203,10 @@ This WANO collects all generated data from the previous WANO and generates a dat
 
 # Parameters
 In this section, we will explain each of the following parameters in detail:
-- **Title:** Provide the title of the calculation or project.
+- **Title:** Provide the title of the calculation or project (should be defined as explained in the previous sections).
 - **Molecular Structure**
     - _**Structure file type:**_ Specify the type of structure file being used (XYZ, Turbomole coord, Gaussian input).
-    - _**Structure file:**_ The actual structure file containing the molecular coordinates.
+    - _**Structure file:**_ The actual structure file containing the molecular coordinates (should be defined as explained in the previous sections).
     - _**Internal coordinates:**_ Information on the internal coordinates used for defining the molecule.
 - **Basis set**
     - _**Basis set type:**_ Specify the type of basis set employed in the calculation.
@@ -233,7 +233,7 @@ In this section, we will explain each of the following parameters in detail:
            
          - **Optical Rectification, β(0; ω, −ω)**: Two photons of opposite frequencies (ω and −ω) generate a static (DC) electric field. Used in terahertz wave generation and detection.
 
-  _ DFT-Turbomole is able to calculate the first hyperpolarizability for both static and dynamic frequencies. By default, Turbomole calculates the first hyperpolarizability for the second harmonic generation case. However, this WaNo is designed to calculate hyperpolarizability for the Pockels effect as well.
+  Although Turbomole software calculates the hyperpolarizability by default for the second harmonic generation case, this WANO is designed to calculate hyperpolarizability for the Pockels effect.
 
     - _**Frequency calculation:**_ Calculate second derivatives of the energy with respect to nuclear positions. This can be chosen either with the structure optimization parameter or alone.
     - _**Plot HOMO-LUMO orbt:**_  If you need to see the frontier orbitals, selecting this parameter will calculate the related cube files.
