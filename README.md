@@ -152,7 +152,34 @@ UnpackMol Wano extracts and processes files from the tar file uploaded using Mul
 
 This setup will enable the Wano to grab the initial structures from the `UnpackMol` Wano and perform geometry optimization and frequency calculation.
 
+# Hyperpolarizability Calculation with DTF-Turbomole_1 WANO
 
+To perform hyperpolarizability calculations using the DTF-Turbomole_1 WANO, follow these steps:
+
+1. **Open the WANO**: Double-click on the DTF-Turbomole_1 WANO.
+
+2. **Input Structure**: This WANO takes the optimized structure from the DFT-Turbomole WANO as the initial input for hyperpolarizability calculation.
+
+3. **Define a Title**: 
+    - Click the button next to the "Title" field (see Figure 9, number 1).
+    - Fill in the title as shown in Figure 9, number 2.
+
+4. **Specify the File**:
+    - Click on the box next to "Structure file" under the "Molecular structure" section (number 3 in Figure 9).
+    - Select the appropriate file by typing a few letters of "AdvancedForEach." A pop-up will appear where you can select the file from the list (see Figure 9, number 4).
+
+5. **Type of Calculation**:
+    - Check the box next to "Hyperpolarizability" under the "Type of calculation" section (number 5 in Figure 9).
+    - A box will appear where you can enter your desired Lambda in nm.
+    - If additional frequencies are needed, press the green cross to add another frequency in the new box that appears.
+
+**Note**: In this WANO, the default hyperpolarizability calculation is the Pockels effect. For more details, please refer to the parameters explanation.
+
+<figure align="centering">
+    <img src="images/fig9.png" alt="Alt Text">
+    <figcaption>Figure 9:  Steps to Set Up Hyperpolarizability Calculation in DTF-Turbomole_1 WANO.
+</figcaption>
+</figure>
 
 # Parameters
 In this section, we will explain each of the following parameters in detail:
