@@ -152,7 +152,7 @@ UnpackMol Wano extracts and processes files from the tar file uploaded using Mul
 
 This setup will enable the Wano to grab the initial structures from the `UnpackMol` Wano and perform geometry optimization and frequency calculation.
 
-# Hyperpolarizability Calculation with DTF-Turbomole_1 WANO
+#  DTF-Turbomole_1 WANO
 
 To perform hyperpolarizability calculations using the DTF-Turbomole_1 WANO, follow these steps:
 
