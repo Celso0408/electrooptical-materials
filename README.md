@@ -249,13 +249,13 @@ In this section, we will explain each of the following parameters in detail:
          
  Although Turbomole software calculates the hyperpolarizability by default for the second harmonic generation case, this WANO is designed to calculate hyperpolarizability for the Pockels effect.
        
-The resulting hyperpolarizability is in atomic units (a.u.). To convert it to esu `\(*10^{30}\)', use the following relation:
+The resulting hyperpolarizability is in atomic units (a.u.). To convert it to esu `\(*10^{30}\)`, use the following relation:
 
-`1 a.u. = \(8.6393 \times 10^{-33}\) esu'
+`1 a.u. = \(8.6393 \times 10^{-33}\) esu`
 
 
-  - _**Frequency calculation:**_ Calculate second derivatives of the energy with respect to nuclear positions. This can be chosen either with the structure optimization parameter or alone.
-  - _**Plot HOMO-LUMO orbt:**_  If you need to see the frontier orbitals, selecting this parameter will calculate the related cube files.
+    - _**Frequency calculation:**_ Calculate second derivatives of the energy with respect to nuclear positions. This can be chosen either with the structure optimization parameter or alone.
+    - _**Plot HOMO-LUMO orbt:**_  If you need to see the frontier orbitals, selecting this parameter will calculate the related cube files.
 
 ## Running
 
