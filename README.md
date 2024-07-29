@@ -6,7 +6,7 @@
 - [Wanos](#wanos)
   - [Mul-It](#mul-it)
   - [AdvancedFor](#advancedfor)
-  - [UnpackMol](#unpackmol)
+  - [UnpackMol](#unpackmol-wano)
   - [DFT-Turbomole](#dft-turbomole-wano)
   - [DTF-Turbomole_1](#dtf-turbomole_1-wano)
   - [DB-Generator](#db-generator-wano)
@@ -251,5 +251,3 @@ In this section, we will explain each of the following parameters in detail:
     - _**Frequency calculation:**_ Calculate second derivatives of the energy with respect to nuclear positions. This can be chosen either with the structure optimization parameter or alone.
     - _**Plot HOMO-LUMO orbt:**_  If you need to see the frontier orbitals, selecting this parameter will calculate the related cube files.
 
-# Input
-The only needed input file is xyz structure of the molecule.
