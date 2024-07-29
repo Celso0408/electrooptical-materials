@@ -246,6 +246,10 @@ In this section, we will explain each of the following parameters in detail:
          - **Electro-optic Pockels Effect, β(−ω; ω, 0)**: A light wave (ω) interacts with a static electric field, resulting in modulation of the light wave at the same frequency. Utilized in electro-optic modulators for optical communication systems.
            
          - **Optical Rectification, β(0; ω, −ω)**: Two photons of opposite frequencies (ω and −ω) generate a static (DC) electric field. Used in terahertz wave generation and detection.
+         
+         - The resulting hyperpolarizability is in atomic units (a.u.). To convert it to esu \(*10^{30}\), use the following relation:
+
+          1 a.u. = \(8.6393 \times 10^{-33}\) esu
 
   Although Turbomole software calculates the hyperpolarizability by default for the second harmonic generation case, this WANO is designed to calculate hyperpolarizability for the Pockels effect.
 
@@ -270,6 +274,7 @@ In this section, we will explain each of the following parameters in detail:
    - On the right-hand side of Simstack, click on "Jobs & Workflows" to check the progress (Figure 11).
    - Yellow color indicates the running status, green means successfully finished, and red shows an error.
    - To update the status, press the "Reload" button at the bottom of the page.
+   - For each structure in your tar file, a folder will be created for each WANO. For example, if there are three structures as shown in Figure 11, three directories will be created for the UnpackMol and DFT-Turbomole WANOs.
 
 <figure align="centering">
     <img src="images/status.png" alt="Alt Text">
