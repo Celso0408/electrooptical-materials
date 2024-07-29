@@ -11,6 +11,7 @@
   - [DTF-Turbomole_1](#dtf-turbomole_1-wano)
   - [DB-Generator](#db-generator-wano)
 - [Parameters](#parameters)
+- [Running](#running)
 
 
 # DFT-Turbomole WaNo
@@ -251,3 +252,21 @@ In this section, we will explain each of the following parameters in detail:
     - _**Frequency calculation:**_ Calculate second derivatives of the energy with respect to nuclear positions. This can be chosen either with the structure optimization parameter or alone.
     - _**Plot HOMO-LUMO orbt:**_  If you need to see the frontier orbitals, selecting this parameter will calculate the related cube files.
 
+## Running
+
+1. **Define the Appropriate Resources**
+   - Click on the "Resources" button on the top right side of Simstack.
+   - Define your needed processors by changing the value in the "cpus_per_node" box and allocate enough memory in the "memory" field.
+   - Adjust the walltime, which is the time limit you need to run your calculation. The more complicated the structure, the more time you should assign.
+   - Please leave the rest of the parameters unchanged.
+
+2. **Save the Configuration**
+   - Click on "File" (top left side of Simstack), select "Save As", and give it a name.
+
+3. **Run the Calculation**
+   - Click on the "Run" button (next to "File").
+
+4. **Check the Progress**
+   - On the right-hand side of Simstack, click on "Jobs & Workflows" to check the progress (Figure 11).
+   - Yellow color indicates the running status, green means successfully finished, and red shows an error.
+   - To update the status, press the "Reload" button at the bottom of the page.
