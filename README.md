@@ -248,8 +248,7 @@ In this section, we will explain each of the following parameters in detail:
          - **Optical Rectification, β(0; ω, −ω)**: Two photons of opposite frequencies (ω and −ω) generate a static (DC) electric field. Used in terahertz wave generation and detection.
          
          - The resulting hyperpolarizability is in atomic units (a.u.). To convert it to esu \(*10^{30}\), use the following relation:
-
-          1 a.u. = \(8.6393 \times 10^{-33}\) esu
+ 1 a.u. = \(8.6393 \times 10^{-33}\) esu
 
   Although Turbomole software calculates the hyperpolarizability by default for the second harmonic generation case, this WANO is designed to calculate hyperpolarizability for the Pockels effect.
 
