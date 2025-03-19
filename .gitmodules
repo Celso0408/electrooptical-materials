@@ -1,0 +1,3 @@
+[submodule "namer_atomtypes"]
+	path = namer_atomtypes
+	url = git@github.com:PhD-2024/namer_atomtypes.git
